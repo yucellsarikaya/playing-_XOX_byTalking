@@ -1,0 +1,31 @@
+.square-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  font-size: xx-large;
+  border: 1px solid black;
+}
+.square-box-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 310px;
+}
+
+.app {
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.red{
+  background-color: red;
+}.lightgray{
+  background-color: lightgray;
+}
+.yellowgreen{
+  background-color: yellowgreen;
+}
