@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/playing_XOX_byTalking/static/css/main.4bde79aa.css",
-    "main.js": "/playing_XOX_byTalking/static/js/main.177479d0.js",
+    "main.js": "/playing_XOX_byTalking/static/js/main.22e5fc52.js",
     "index.html": "/playing_XOX_byTalking/index.html",
     "main.4bde79aa.css.map": "/playing_XOX_byTalking/static/css/main.4bde79aa.css.map",
-    "main.177479d0.js.map": "/playing_XOX_byTalking/static/js/main.177479d0.js.map"
+    "main.22e5fc52.js.map": "/playing_XOX_byTalking/static/js/main.22e5fc52.js.map"
   },
   "entrypoints": [
     "static/css/main.4bde79aa.css",
-    "static/js/main.177479d0.js"
+    "static/js/main.22e5fc52.js"
   ]
 }
