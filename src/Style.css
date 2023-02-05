@@ -29,3 +29,30 @@
 .yellowgreen{
   background-color: yellowgreen;
 }
+
+.header {
+  width: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color:  #1f97c7;
+  color: white;
+  transition: all 0.6s ease-in-out;
+}
+
+.title {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(20px);
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.selected {
+  transform: translateY(-20px);
+}
+

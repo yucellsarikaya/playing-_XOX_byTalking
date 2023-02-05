@@ -1,5 +1,4 @@
 export function Location(transcript) {
-    console.log(transcript.toLowerCase())
     if (transcript.toLowerCase() === "1x" || transcript.toLowerCase() === "bir x") {
         return { deger: "x", konum: 1 }
     } else if (transcript.toLowerCase() === "2x" || transcript.toLowerCase() === "iki x") {
@@ -16,7 +15,7 @@ export function Location(transcript) {
         return { deger: "x", konum: 7 }
     } else if (transcript.toLowerCase() === "8x" || transcript.toLowerCase() === "sekiz x") {
         return { deger: "x", konum: 8 }
-    } else if (transcript.toLowerCase() === "9x" || transcript.toLowerCase() === "dokuz x") {
+    } else if (transcript.toLowerCase() === "9x" || transcript.toLowerCase() === "dokuz x" || transcript.toLowerCase() === "9 x") {
         return { deger: "x", konum: 9 }
     } else if (transcript.toLowerCase() === "1o" || transcript.toLowerCase() === "1 o" || transcript.toLowerCase() === "bir o") {
         return { deger: "o", konum: 1 }
@@ -39,5 +38,30 @@ export function Location(transcript) {
     }
     else {
         return
+    }
+}
+
+export function GameWinnerControl(Array, deger) {
+    if (Array[0].deger === deger && Array[1].deger === deger && Array[2].deger === deger) {
+        return deger 
+    } else if (Array[3].deger === deger && Array[4].deger === deger && Array[5].deger === deger) {
+        return deger 
+    } else if (Array[6].deger === deger && Array[7].deger === deger && Array[8].deger === deger) {
+        return deger 
+    } else if (Array[0].deger === deger && Array[3].deger === deger && Array[6].deger === deger) {
+        return deger 
+    } else if (Array[1].deger === deger && Array[4].deger === deger && Array[7].deger === deger) {
+        return deger 
+    } else if (Array[2].deger === deger && Array[5].deger === deger && Array[8].deger === deger) {
+        return deger 
+    } else if (Array[0].deger === deger && Array[4].deger === deger && Array[8].deger === deger) {
+        return deger 
+    } else if (Array[2].deger === deger && Array[4].deger === deger && Array[6].deger === deger) {
+        return deger 
+    }else {
+        const beraberMi = Array.filter(i => i.degistiMi === true)
+        if(beraberMi.length === 9){
+            return "Beraber"
+        }
     }
 }
