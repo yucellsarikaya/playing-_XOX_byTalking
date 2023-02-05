@@ -33,7 +33,7 @@ const App = () => {
       <button className="start-animated" onClick={SpeechRecognition.startListening}>Mikrofon Aç</button>
       <button className="stop-animated" onClick={SpeechRecognition.stopListening}>Mikrofon Kapa</button>
       <button className="reset-animated" onClick={resetTranscript}>Mikrofon resetle</button>
-      <p>Söylenen keliemler: {transcript}</p>
+      <p>Söylenen kelimeler: {transcript}</p>
       <Board transcript={transcript} />
     </div>
   );
