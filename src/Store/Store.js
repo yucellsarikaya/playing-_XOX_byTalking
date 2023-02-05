@@ -1,19 +1,19 @@
 export function Location(transcript) {
-    if (transcript.toLowerCase() === "1x" || transcript.toLowerCase() === "bir x") {
+    if (transcript.toLowerCase() === "1x" || transcript.toLowerCase() === "bir x" || transcript.toLowerCase() === "1 x") {
         return { deger: "x", konum: 1 }
-    } else if (transcript.toLowerCase() === "2x" || transcript.toLowerCase() === "iki x") {
+    } else if (transcript.toLowerCase() === "2x" || transcript.toLowerCase() === "iki x" || transcript.toLowerCase() === "2 x") {
         return { deger: "x", konum: 2 }
-    } else if (transcript.toLowerCase() === "3x" || transcript.toLowerCase() === "iki x") {
+    } else if (transcript.toLowerCase() === "3x" || transcript.toLowerCase() === "iki x" || transcript.toLowerCase() === "3 x") {
         return { deger: "x", konum: 3 }
-    } else if (transcript.toLowerCase() === "4x" || transcript.toLowerCase() === "dört x") {
+    } else if (transcript.toLowerCase() === "4x" || transcript.toLowerCase() === "dört x" || transcript.toLowerCase() === "4 x") {
         return { deger: "x", konum: 4 }
-    } else if (transcript.toLowerCase() === "5x" || transcript.toLowerCase() === "beş x") {
+    } else if (transcript.toLowerCase() === "5x" || transcript.toLowerCase() === "beş x" || transcript.toLowerCase() === "5 x") {
         return { deger: "x", konum: 5 }
-    } else if (transcript.toLowerCase() === "6x" || transcript.toLowerCase() === "altı x") {
+    } else if (transcript.toLowerCase() === "6x" || transcript.toLowerCase() === "altı x" || transcript.toLowerCase() === "6 x") {
         return { deger: "x", konum: 6 }
-    } else if (transcript.toLowerCase() === "7x" || transcript.toLowerCase() === "yedi x") {
+    } else if (transcript.toLowerCase() === "7x" || transcript.toLowerCase() === "yedi x" || transcript.toLowerCase() === "7 x") {
         return { deger: "x", konum: 7 }
-    } else if (transcript.toLowerCase() === "8x" || transcript.toLowerCase() === "sekiz x") {
+    } else if (transcript.toLowerCase() === "8x" || transcript.toLowerCase() === "sekiz x" || transcript.toLowerCase() === "8 x") {
         return { deger: "x", konum: 8 }
     } else if (transcript.toLowerCase() === "9x" || transcript.toLowerCase() === "dokuz x" || transcript.toLowerCase() === "9 x") {
         return { deger: "x", konum: 9 }
